@@ -52,8 +52,8 @@ class _PhotoScreenState extends State<PhotoScreen> with WidgetsBindingObserver {
     AndroidNotificationDetails androidPlatformChannelSpecifics =
         AndroidNotificationDetails(
       const Uuid().v1(),
-      'Upload Notification',
-      channelDescription: 'The Image was successfully Uploaded!',
+      'Food Shared',
+      channelDescription: 'Thank you for sharing food with me!',
       importance: Importance.max,
       priority: Priority.high,
     );
